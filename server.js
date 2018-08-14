@@ -27,6 +27,6 @@ io.on('connection',(socket)=>{
     });
 
 });
-server.listen(3000,function(){
+server.listen(PORT,function(){
     console.log("fuck you");
 });
