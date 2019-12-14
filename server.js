@@ -28,5 +28,5 @@ io.on('connection',(socket)=>{
 
 });
 server.listen(PORT,function(){
-    console.log("fuck you");
+    console.log("HI");
 });
