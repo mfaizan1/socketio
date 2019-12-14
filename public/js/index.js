@@ -7,7 +7,7 @@ socket.on('disconnect',()=>{
 });
 socket.emit('createMessage',{
     from:'andrew',
-    message:'fuck you'
+    message:'hey'
 })
 socket.on('newMessage',function(msg){
     console.log('new message' , msg);
